@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center_horizontal">
+
+    <!-- Pole tekstowe -->
+    <TextView
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/typeIn" />
+
+    <!-- Przycisk zwykły (Button) -->
+    <Button
+        android:id="@+id/buttonNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check" />
+
+    <!-- Przycisk dwustanowy (ToggleButton) -->
+    <ToggleButton
+        android:id="@+id/buttonToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toggleButton" />
+
+    <!-- Tekstowe pole edycyjne (EditText) -->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editText" />
+
+    <!-- Przyciski wyboru jednokrotnego (RadioButtons) -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option1" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option2" />
+    </RadioGroup>
+
+    <!-- Przyciski wyboru wielokrotnego (CheckBoxes) -->
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/markIt" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/markThat" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:id="@+id/backButton"
+        android:text="@string/back"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:id="@+id/closeButton"
+        android:text="@string/button5"/>
+</LinearLayout>

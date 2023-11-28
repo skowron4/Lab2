@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="txt1">Adam Skowron 266571</string>
+    <string name="button1">O autorze</string>
+    <string name="autor">O autorze:</string>
+    <string name="info">Ogólnie nie mam nic ciekawego do powiedzenia o sobie. A to wlasnie ja:</string>
+    <string name="button2">Hobby</string>
+    <string name="button3">Ciekawe zajecie</string>
+    <string name="back">Powrót</string>
+    <string name="galaxy1">Galaktyka 1</string>
+    <string name="galaxy2">Galaktyka 2</string>
+    <string name="button4">Numer kontaktowy</string>
+    <string name="button5">Zamknij aplikacje</string>
+    <string name="txt2">O autorze:</string>
+    <string name="txt3">HOBBY</string>
+    <string name="opisHobby">Zawsze lubilem patrzyc w gwiazdy, wtedy jeszcze mialem marzenia. Niestety wszsytko sie zmienilo kiedy trafilem na studia. Teraz nie mam marzen. Ale przynajmniej mam o czym robic zadanie :DD.</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="title_activity_3">Activity3</string>
+    <string name="title_activity_4">Activity4</string>
+    <string name="typeIn">Fajno nie?</string>
+    <string name="check">Sprawdz</string>
+    <string name="toggleButton">Prycisk dwustanowy</string>
+    <string name="editText">Wpisz</string>
+    <string name="option1">Opcja 1</string>
+    <string name="option2">Opcja 2</string>
+    <string name="markIt">Zaznacz to</string>
+    <string name="markThat">Zanzacz tamto</string>
+</resources>
